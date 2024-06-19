@@ -6,6 +6,6 @@ int	main(void)
 	printf("try2");
 	printf("semicolon");
 	printf("semicolon2");
-	pritf("no error leaw");
+	printf("no error leaw");
 	return (0);
 }
