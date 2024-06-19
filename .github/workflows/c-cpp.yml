@@ -1,5 +1,8 @@
 name: C/C++ CI
 
+permissions:
+  statuses: write
+
 on:
   push:
     branches: [ "main" ]
@@ -19,3 +22,4 @@ jobs:
       run: make all
     - name: make clean
       run: make clean
+
